@@ -4,16 +4,13 @@ body {
   padding: 0;
   background-color: #f5f5f5;
   color: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 
 .container {
-  max-width: 90%;
-  background-color: #fff;
+  width: 90%;
+  margin: 0 auto;
   padding: 20px;
+  background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -96,4 +93,3 @@ a {
   color: #007bff;
   text-decoration: none;
 }
-
