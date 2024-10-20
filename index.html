@@ -1,29 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kamrul Hasan - Learner</title>
     <link href="https://fonts.cdnfonts.com/css/blogger-sans" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="me" href="https://social.trom.tf/profile/kamrulhasanio">
+    <style>
+        body {
+            font-family: 'Blogger Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212; /* Dark background */
+            color: #e0e0e0; /* Light text color */
+            display: flex; /* Enable Flexbox */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Full viewport height */
+        }
+        .container {
+            width: 90%;
+            max-width: 600px; /* Set a maximum width for the container */
+            padding: 20px;
+            background-color: #1e1e1e; /* Darker container */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .hero-area img {
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 4px solid #007bff; /* Blue border */
+        }
+        h1, h2, h3 {
+            text-align: center;
+            margin: 10px 0;
+            font-weight: normal;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        h2 {
+            font-size: 25px;
+        }
+        h3 {
+            font-size: 22px;
+        }
+        p, a {
+            text-align: center;
+            margin: 10px 0;
+            font-size: 19px;
+        }
+        a {
+            color: #007bff; /* Blue link color */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+        .social-icons a {
+            font-size: 25px;
+            color: #e0e0e0; /* Light color for social icons */
+        }
+        .social-icons a:hover {
+            color: #007bff; /* Change color on hover */
+        }
+        .portfolio {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .portfolio .portfolio-title {
+            width: 100%;
+        }
+        .portfolio .portfolio-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .portfolio-item {
+            flex: 1 1 calc(33.33% - 20px);
+            margin: 5px;
+            border: 2px solid #007bff; /* Blue border for items */
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            background-color: #2a2a2a; /* Dark background for items */
+        }
+        .portfolio-item h3 {
+            font-size: 16px;
+            margin-bottom: 5px;
+            color: #e0e0e0; /* Light text for item titles */
+        }
+        .portfolio-item a {
+            display: block;
+            margin-top: 10px;
+            color: #007bff; /* Blue link color */
+            text-decoration: none;
+        }
+        .portfolio-item a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+    </style>
 </head>
-
 <body>
     <div class="container">
         <div class="hero-area">
-            <img src="kh.jpg" alt="Profile Picture" class="profile-pic">
+            <img src="https://i.ibb.co.com/b78r8Hx/kh.png" alt="Profile Picture" class="profile-pic">
             <h1>Kamrul Hasan</h1>
-            <p>Muslim | Ahlus Sunnah wal Jamayah | Hanafi</p>
-<!--
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur.</p>
--->
+            <p>Muslim | Ahlus Sunnah wal Jamayah | Hanafi | Linux & Tech Enthusiast</p>
             <p class="social-icons">
                 <a href="https://t.me/kamrulhasanofficial" class="fab fa-telegram"></a>
                 <a href="https://link.kamrulhasan.co/facebook" class="fab fa-facebook"></a>
@@ -43,25 +131,23 @@
                     <a href="https://osaac.kamrulhasan.co">View</a>
                 </div>
                 <div class="portfolio-item">
-                    <h3><i class="fas fa-tasks"></i> To-Do </h3>
+                    <h3><i class="fas fa-tasks"></i> To-Do</h3>
                     <p>Only a Basic and Simple To-Do App.</p>
                     <a href="https://todo.kamrulhasan.co">View</a>
                 </div>
                 <div class="portfolio-item">
-                    <h3><i class="fas fa-mobile-alt"></i> 000000 </h3>
+                    <h3><i class="fas fa-mobile-alt"></i> 000000</h3>
                     <p>Nothing to say</p>
                     <a href="#">View</a>
                 </div>
                 <div class="portfolio-item">
-                    <h3><i class="fas fa-mobile-alt"></i> 000000 </h3>
+                    <h3><i class="fas fa-mobile-alt"></i> 000000</h3>
                     <p>Nothing to say</p>
                     <a href="#">View</a>
                 </div>
             </div>
         </div>
     </div>
-
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
